@@ -63,9 +63,9 @@ client.on('messageCreate', function (message) {
     }
 });
 client.on('messageCreate', function (message) {
-    if (message.content.includes('fuck'))
+    if (message.content.includes('yum'))
         message.reply({
-            content: 'https://tenor.com/view/pretty-raheem-jeep-peace-steal-gif-6040822',
+            content: 'https://c.tenor.com/GlHzsaqxUrYAAAAd/fruit-finger-cum.gif',
         });
 });
 client.on('messageCreate', function (message) {
