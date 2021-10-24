@@ -76,9 +76,9 @@ client.on('messageCreate', function (message) {
     }
 });
 client.on('messageCreate', function (message) {
-    if (message.content === 'ur staying with me woolumy') {
+    if (message.content === 'woolumy out of control') {
         message.reply({
-            content: 'https://c.tenor.com/zviA91JGhNIAAAAd/lost-puppy-dog.gif',
+            content: 'https://c.tenor.com/Utk8zEnu81QAAAAM/spongebob-meme.gif',
         });
     }
 });
