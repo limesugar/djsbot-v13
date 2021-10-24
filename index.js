@@ -21,6 +21,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 var discord_js_1 = __importStar(require("discord.js"));
 var dotenv_1 = __importDefault(require("dotenv"));
@@ -33,6 +34,19 @@ var client = new discord_js_1.default.Client({
 });
 client.on('ready', function () {
     console.log('the bot is ready!!');
+});
+var guildId = '778052927524044820';
+var guild = client.guilds.cache.get(guildId);
+var commands;
+if (guild) {
+    commands = guild.commands;
+}
+else {
+    commands = (_a = client.application) === null || _a === void 0 ? void 0 : _a.commands;
+}
+commands === null || commands === void 0 ? void 0 : commands.create({
+    name: 'ping',
+    description: 'Rplies with pong.',
 });
 client.on('messageCreate', function (message) {
     if (message.content === 'faget') {
@@ -76,9 +90,9 @@ client.on('messageCreate', function (message) {
     }
 });
 client.on('messageCreate', function (message) {
-    if (message.content === 'woolumy out of control') {
+    if (message.content === 'ur staying with me woolumy') {
         message.reply({
-            content: 'https://c.tenor.com/Utk8zEnu81QAAAAM/spongebob-meme.gif',
+            content: 'https://c.tenor.com/zviA91JGhNIAAAAd/lost-puppy-dog.gif',
         });
     }
 });

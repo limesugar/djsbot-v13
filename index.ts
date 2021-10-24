@@ -13,6 +13,21 @@ client.on('ready', () => {
     console.log('the bot is ready!!')
 })
 
+ const  guildId = '778052927524044820'
+ const guild = client.guilds.cache.get(guildId)
+ let commands
+
+ if (guild) {
+     commands = guild.commands
+ } else {
+     commands = client.application?.commands
+ }
+
+ commands?.create({
+     name: 'ping',
+     description: 'Rplies with pong.',
+ })
+
 client.on('messageCreate', (message) => {
     if (message.content === 'faget') {
         message.reply({
