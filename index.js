@@ -58,7 +58,7 @@ client.on('messageCreate', function (message) {
 client.on('messageCreate', function (message) {
     if (message.content === 'but i like u?') {
         message.reply({
-            content: 'shes mine faget, can u leave',
+            content: 'shes mine faget',
         });
     }
 });

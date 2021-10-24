@@ -43,7 +43,7 @@ client.on('messageCreate', (message) => {
 client.on('messageCreate', (message) => {
     if (message.content === 'but i like u?') {
         message.reply({
-            content: 'shes mine faget, can u leave',
+            content: 'shes mine faget',
 
         })
     }
