@@ -63,7 +63,7 @@ client.on('messageCreate', function (message) {
     }
 });
 client.on('messageCreate', function (message) {
-    if (message.content.includes('fuck off sloby'))
+    if (message.content.includes('fuck'))
         message.reply({
             content: 'https://tenor.com/view/pretty-raheem-jeep-peace-steal-gif-6040822',
         });
