@@ -46,12 +46,12 @@ else {
 }
 commands === null || commands === void 0 ? void 0 : commands.create({
     name: 'ping',
-    description: 'Rplies with pong.',
+    description: 'Replies with pong.',
 });
 client.on('messageCreate', function (message) {
     if (message.content === 'faget') {
         message.reply({
-            content: 'https://giphy.com/gifs/timanderic-season-3-tim-and-eric-corbs-a5pXfDxlt6VTa',
+            content: '/Users/Will/Desktop/bot trial/gerda.gif',
         });
     }
 });
