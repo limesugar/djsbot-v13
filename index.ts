@@ -13,7 +13,7 @@ client.on('ready', () => {
     console.log('the bot is ready!!')
 })
 
- const  guildId = '778052927524044820'
+ const  guildId = '901208340766552084'
  const guild = client.guilds.cache.get(guildId)
  let commands
 

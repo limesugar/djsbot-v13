@@ -35,7 +35,7 @@ var client = new discord_js_1.default.Client({
 client.on('ready', function () {
     console.log('the bot is ready!!');
 });
-var guildId = '778052927524044820';
+var guildId = '901208340766552084';
 var guild = client.guilds.cache.get(guildId);
 var commands;
 if (guild) {
