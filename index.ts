@@ -32,7 +32,7 @@ client.on('messageCreate', (message) => {
     if (message.content === 'gerda') {
         message.reply({
             files: [{
-                attachment: './Users/Will/Desktop/bot trial/gerda.gif',
+                attachment: './Desktop/bot trial/gerda.gif',
                 name: 'Gerda'
             }]
 
