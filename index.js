@@ -52,7 +52,7 @@ client.on('messageCreate', function (message) {
     if (message.content === 'gerda') {
         message.reply({
             files: [{
-                    attachment: './Desktop/bot trial/gerda.gif',
+                    attachment: './gerda.gif',
                     name: 'Gerda'
                 }]
         });
