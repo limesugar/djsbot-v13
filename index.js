@@ -49,9 +49,12 @@ commands === null || commands === void 0 ? void 0 : commands.create({
     description: 'Replies with pong.',
 });
 client.on('messageCreate', function (message) {
-    if (message.content === 'faget') {
+    if (message.content === 'gerda') {
         message.reply({
-            content: '/Users/Will/Desktop/bot trial/gerda.gif',
+            files: [{
+                    attachment: './Users/Will/Desktop/bot trial/gerda.gif',
+                    name: 'Gerda'
+                }]
         });
     }
 });
