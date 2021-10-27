@@ -41,7 +41,7 @@ client.on('messageCreate', (message) => {
 })
 
 client.on('messageCreate', (message) => {
-    if (message.content === 'legionfarm players be like') {
+    if (message.content === 'food') {
         message.reply({
             content: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Flegionfarm&psig=AOvVaw0kCLA3LHlRVlqsdcJz5i2p&ust=1635027585885000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJigu8iG3_MCFQAAAAAdAAAAABAT',
 
@@ -75,6 +75,16 @@ client.on('messageCreate', (message) => {
         })
     }
 ,)
+
+client.on('messageCreate', (message) => {
+    if (message.content.includes('food'))
+        message.reply({
+            content: 'https://c.tenor.com/h80prcQqhJoAAAAd/nikocado-avocado-grinch.gif',
+
+        })
+    }
+,)
+
 
 client.on('messageCreate', (message) => {
     if (message.content === 'ur staying with me woolumy') {
