@@ -41,15 +41,6 @@ client.on('messageCreate', (message) => {
 })
 
 client.on('messageCreate', (message) => {
-    if (message.content === 'food') {
-        message.reply({
-            content: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Flegionfarm&psig=AOvVaw0kCLA3LHlRVlqsdcJz5i2p&ust=1635027585885000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJigu8iG3_MCFQAAAAAdAAAAABAT',
-
-        })
-    }
-})
-
-client.on('messageCreate', (message) => {
     if (message.content === 'potet') {
         message.reply({
             content: 'https://tenor.com/view/amberlynn-reid-alr-amberlynn-tongue-out-lick-gif-12445857',
