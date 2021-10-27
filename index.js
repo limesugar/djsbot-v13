@@ -52,7 +52,7 @@ client.on('messageCreate', function (message) {
     if (message.content === 'gerda') {
         message.reply({
             files: [{
-                    attachment: './gerda.gif',
+                    attachment: './gerda2.png',
                     name: 'Gerda'
                 }]
         });
